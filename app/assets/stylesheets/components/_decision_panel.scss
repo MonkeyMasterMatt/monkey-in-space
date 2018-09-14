@@ -1,0 +1,19 @@
+.decision-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.decision-panel_text {
+  border: 4px solid white;
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  max-width: 400px;
+}
+.decision-panel_right {
+  margin-left: 50px;
+}
+.decision-panel_left {
+  margin-right: 50px;
+}
+

@@ -1,2 +1,18 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container">
+  <div class="banner-content">
+    <div class="front-img-cont cont_home">
+      <%= image_tag 'space_home.jpg', class: "front-img_home" %>
+    </div>
+    <div class="decision-panel decision-panel_right">
+      <div class="decision-panel_text">
+        <h1>BOOSTER MALFUNCTION!</h1>
+        <p>The main booster is forcing you off your flight path. What do you do?</p>
+      </div>
+      <div class="buttons">
+        <%= link_to 'Release the booster', first_first_path, class: "button" %>
+        <%= link_to 'Wait it out', first_second_path, class: "button" %>
+      </div>
+    </div>
+  </div>
+</div>
+
