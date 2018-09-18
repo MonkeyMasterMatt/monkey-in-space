@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="banner-content">
+    <div class="decision-panel decision-panel_left">
+      <div class="decision-panel_text">
+        <h1>OXYGEN LEVELS ARE LOW!</h1>
+        <p>You are racing back towards Earth. What do you do?</p>
+      </div>
+      <div class="buttons">
+        <%= link_to 'Go out and try to fix it manually', manual_release_path, class: "button" %>
+        <%= link_to 'Keep on pressing the release button', explode_path, class: "button" %>
+      </div>
+    </div>
+    <div class="front-img-cont cont_space_jump">
+      <%= image_tag 'space_jump.jpg', class: "front-img_home" %>
+    </div>
+  </div>
+</div>
